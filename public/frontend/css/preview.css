@@ -1,0 +1,75 @@
+
+
+.royaltimer-container {
+	width:90%;
+	margin:-16px 10%;
+}
+
+/* Cross browser */
+.cross-browser {
+    padding-top:0;
+}
+
+.cross-browser > .wrapper > i {
+	font-size:70px;
+	line-height:70px;
+	color:#cd04ae;
+	margin:0 10px;
+	cursor:default;
+}
+
+.fa.nav-style {
+    position:absolute;
+    top:-240px;
+    font-size:480px;
+    color:#eee;
+    margin-left:-158px;
+    z-index:0;
+}
+
+
+/*****************
+    - Colors -
+*****************/
+#colors {
+	clear:both;
+	width:315px;	
+	margin:20px auto;
+}
+
+#colors a {
+	display:block;
+	float:left;
+	width:45px;
+	height:30px;	
+	cursor:pointer;
+}
+
+#colors .black 	{background:#333;}
+
+
+/****************************
+    - Responsive styles -
+****************************/
+@media screen and (max-width:1300px), (orientation:portrait) {
+	
+	.royaltimer-container {
+		width:100%;
+		margin:0;	
+	}
+}
+
+@media (max-width:1100px) {
+
+	
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:479px) {
+
+
+}
